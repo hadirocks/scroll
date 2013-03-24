@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-family:bold;
+	padding-top: 20px;
+	padding-left:20px;
+	margin: 20 0 0 0;
+}
+
+html, body{
+	height: 100%;
+	background-color: white;
+}
+
+
+section{
+	width: 100%;
+	background-color: black;
+}
+
+section .slide{
+	background-color: #5D4D3A;
+	padding: 20px;
+	position:fixed;
+	z-index:1;
+	height: 100%;
+}
+
+body .container{
+	height: 4000px;
+	
+}
+
+.slide .hole{
+	background: red url(scrollImage.gif);
+	background-position: 0px -250px;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+
+	box-shadow: inset 0 0 10px #74634B;
+}
